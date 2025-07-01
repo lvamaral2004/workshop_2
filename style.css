@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definições gerais*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #dca8fc; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+}
+
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Apresentação */
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  gap: 100px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.titulo {
+  margin-bottom: 20px;
+  color: #6a1b9a;
+  font-size: 28px;
+}
+
+.descricao {
+  font-size: 20px;
+}
+
+.imagem img {
+  width: 450px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+}
