@@ -22,13 +22,13 @@ header {
 }
 
 header img {
-  width: 150px;
+  width: 130px;
 }
 
 .menu a {
   color: #000000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-right: 40px;
 }
@@ -53,11 +53,11 @@ header img {
 .titulo {
   margin-bottom: 20px;
   color: #6a1b9a;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .descricao {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .imagem img {
