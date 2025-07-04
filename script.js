@@ -15,7 +15,7 @@ function typeWriter() {
 
 setTimeout(typeWriter, 500);
 
-/* transição imagem */
+/* Transição imagem */
 const imagem = document.querySelector('.imagem img');
 const imagemOriginal = 'imagem1.png';
 const imagemHover = 'imagem2.png';

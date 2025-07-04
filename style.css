@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #dca8fc; 
+  background-color: #cbd3d3; 
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -81,9 +81,7 @@ header img {
 
 .imagem img {
   width: 450px;
-}
-.imagem img {
-    transition: opacity 0.3s ease-in-out; /* Transição suave de opacidade */
+  transition: opacity 0.3s ease-in-out; /* apenas para o segundo desafio */
 }
 
 /* Rodapé */
