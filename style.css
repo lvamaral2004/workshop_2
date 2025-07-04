@@ -38,7 +38,7 @@ header img {
 }
 
 /* Apresentação */
-.sections {
+.secoes {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@ header img {
   flex: 1;
 }
 
-.titulo {
+.titulo, .redes-subtitulo {
   margin-bottom: 20px;
   color: #6a1b9a;
   font-size: 26px;
@@ -58,10 +58,32 @@ header img {
 
 .descricao {
   font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.redes-subtitulo {
+  font-size: 20px;
+}
+
+.redes-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  color: #c96372;
+}
+
+.redes-icon {
+  width: 50px;
 }
 
 .imagem img {
   width: 450px;
+}
+.imagem img {
+    transition: opacity 0.3s ease-in-out; /* Transição suave de opacidade */
 }
 
 /* Rodapé */
